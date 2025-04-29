@@ -1,17 +1,22 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Presupuesto operativo',
+    Description:
+      'El componente formativo “Presupuesto operativo” dentro del programa de “Gestión contable y de información financiera”. Explica los fundamentos y etapas del presupuesto, su clasificación, tipos operativos y financieros, y la metodología para su elaboración. Aporta herramientas para proyectar ventas, costos, inversión y financiamiento, permitiendo tomar decisiones estratégicas fundamentadas. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
     ],
   },
@@ -31,13 +36,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Presupuesto',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Generalidades',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clasificación del presupuesto',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +55,30 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Presupuesto operativo',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Componentes del presupuesto operativo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Metodología para la elaboración del presupuesto operativo',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Aplicación práctica',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Presupuesto financiero',
         desarrolloContenidos: true,
       },
     ],
@@ -102,21 +129,92 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: 'Sitio web',
-      link: '',
+      tema: 'Presupuesto operativo',
+      referencia: 'Gerencie.com. (s.f.). ¿Qué es un presupuesto operativo?',
+      tipo: 'Artículo informativo',
+      link: 'https://www.gerencie.com/que-es-un-presupuesto-operativo.html',
+    },
+    {
+      tema: 'Presupuesto operativo',
+      referencia:
+        'Presidencia de la República. (1996). Decreto 111 de 1996: Estatuto Orgánico del Presupuesto. Diario Oficial No. 42.718.',
+      tipo: 'Decreto',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1849',
+    },
+    {
+      tema: 'Presupuesto financiero',
+      referencia:
+        'Contaduría General de la Nación. (s.f.). Marco Conceptual de la Contabilidad Pública.',
+      tipo: 'Normatividad Técnica',
+      link:
+        'https://www.contaduria.gov.co/inicio/normativa/marco-normativo/marco-conceptual',
+    },
+    {
+      tema: 'Presupuesto financiero',
+      referencia:
+        'International Accounting Standards Board (IASB). (2023). Normas Internacionales de Información Financiera (NIIF). Fundación IFRS.',
+      tipo: 'Norma Internacional',
+      link: 'https://www.ifrs.org/issued-standards/list-of-standards/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Administración',
+      significado:
+        'proceso de planificar, organizar, dirigir y controlar el uso de los recursos y las demás actividades, con el fin de lograr los objetivos o metas de la organización de forma eficiente y eficaz.',
+    },
+    {
+      termino: 'Control',
+      significado:
+        'función administrativa que abarca el proceso de medición y evaluación del desempeño, a fin de adoptar las medidas correctivas necesarias, que debe ser un proceso permanente y regulador.',
+    },
+    {
+      termino: 'Estados financieros',
+      significado:
+        'informes financieros o de cuentas anuales que, por disposición legal, deben presentar las empresas para mostrar su situación económica y financiera durante un periodo determinado.',
+    },
+    {
+      termino: 'Estrategia',
+      significado:
+        'herramienta de dirección que proporciona procedimientos y técnicas con fundamento científico que, aplicadas de forma permanente, permiten mejorar las relaciones de la organización y su entorno, buscando siempre cumplir la satisfacción de las necesidades de sus clientes y el logro de objetivos.',
+    },
+    {
+      termino: 'Margen de rentabilidad bruto',
+      significado:
+        'representa el margen de utilidad obtenido sobre las ventas, donde sólo se recupera el costo de ventas.',
+    },
+    {
+      termino: 'Margen rentabilidad neta',
+      significado:
+        'representa el margen de utilidad obtenido sobre las ventas, una vez cubierto los impuestos y las reservas.',
+    },
+    {
+      termino: 'Meta',
+      significado:
+        'término definido para demostrar el cumplimiento de una meta, estas se complementan con los objetivos definidos en la estrategia.',
+    },
+    {
+      termino: 'Objetivo',
+      significado:
+        'enunciado de un deseo y las acciones concretas que se proponen para alcanzarlo. Este debe ser claro, medible y observable. Define de forma más abstracta y cualitativamente lo que pretende lograr.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Araújo, A., D. (2012). <em>Presupuestos empresariales: eje de la planeación financiera</em>. Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ministerio de Hacienda y Crédito Público. (2020). <em>Aspectos generales del proceso presupuestal colombiano.</em> ',
+      link:
+        'https://colaboracion.dnp.gov.co/CDT/Normograma/Lineamiento%20Ministerio%20de%20Hacienda%20y%20Credito%20P%C3%BAblico.pdf',
+    },
+    {
+      referencia:
+        'Ramírez, M., C. (2011). Los presupuestos: sus objetivos e importancia. <em>Revista Cultural Unilibre</em>, (2), 74-84.',
       link: '',
     },
   ],
@@ -125,14 +223,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Líder del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Olga Constanza Bermudez Jaimes',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -140,9 +238,15 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Hernando Rodríguez Figueroa',
+          cargo: 'Experto temático',
+          centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta ',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -150,19 +254,16 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Yerson Fabian Zarate Saavedra',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Manuel Felipe Echavarria Orozco',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -170,14 +271,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Jaime Hernán Tejada Llano',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Raúl Mosquera Serrano',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
