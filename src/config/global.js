@@ -130,25 +130,18 @@ export default {
   complementario: [
     {
       tema: 'Presupuesto operativo',
-      referencia: 'Gerencie.com. (s.f.). ¿Qué es un presupuesto operativo?',
-      tipo: 'Artículo informativo',
-      link: 'https://www.gerencie.com/que-es-un-presupuesto-operativo.html',
-    },
-    {
-      tema: 'Presupuesto operativo',
       referencia:
         'Presidencia de la República. (1996). Decreto 111 de 1996: Estatuto Orgánico del Presupuesto. Diario Oficial No. 42.718.',
       tipo: 'Decreto',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1849',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=5306',
     },
     {
       tema: 'Presupuesto financiero',
       referencia:
         'Contaduría General de la Nación. (s.f.). Marco Conceptual de la Contabilidad Pública.',
       tipo: 'Normatividad Técnica',
-      link:
-        'https://www.contaduria.gov.co/inicio/normativa/marco-normativo/marco-conceptual',
+      link: 'https://www.contaduria.gov.co/marco-conceptual',
     },
     {
       tema: 'Presupuesto financiero',
@@ -185,9 +178,9 @@ export default {
         'representa el margen de utilidad obtenido sobre las ventas, donde sólo se recupera el costo de ventas.',
     },
     {
-      termino: 'Margen rentabilidad neta',
+      termino: 'Margen de rentabilidad neta',
       significado:
-        'representa el margen de utilidad obtenido sobre las ventas, una vez cubierto los impuestos y las reservas.',
+        'representa el margen de utilidad obtenido sobre las ventas, una vez cubiertos los impuestos y las reservas.',
     },
     {
       termino: 'Meta',
@@ -197,7 +190,7 @@ export default {
     {
       termino: 'Objetivo',
       significado:
-        'enunciado de un deseo y las acciones concretas que se proponen para alcanzarlo. Este debe ser claro, medible y observable. Define de forma más abstracta y cualitativamente lo que pretende lograr.',
+        'enunciado de un deseo y las acciones concretas que se proponen para alcanzarlo. Este debe ser claro, medible y observable. Define de forma más abstracta y cualitativa lo que pretende lograr.',
     },
   ],
   referencias: [

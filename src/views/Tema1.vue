@@ -94,7 +94,7 @@
           .col
             h3.mb-0 Etapas o ciclo presupuestal
 
-    p.mt-4 Es el conjunto de fases que las empresas deben desarrollar periódicamente desde la planeación del presupuesto hasta el control presupuestal. 
+    p.mt-4 Es el conjunto de fases que las empresas deben desarrollar periódicamente, desde la planeación del presupuesto hasta el control presupuestal. 
 
     p Las fases son las siguientes:
 
@@ -216,7 +216,7 @@
               p Es la herramienta que le permite al sector público cumplir con la producción de bienes y servicios públicos para satisfacer las necesidades de la población de conformidad con el rol asignado al Estado en la economía y sociedad del país. El control presupuestal para las entidades del Estado lo efectúa la Contraloría General de la República, ante quien tienen que rendir cuentas los administradores de dichas entidades, sometiéndose, en algunas ocasiones, a procesos disciplinarios que terminan en muchos casos en destitución y pérdida de la libertad. La metodología de elaboración consiste en calcular el valor de los gastos e inversiones que se van a realizar durante el periodo y luego planear cómo se obtendrán los recursos, ya sea recaudando impuestos, recurriendo a empréstitos o emitiendo papel moneda.
 
           div(titulo="Privado")
-            p Son elaborados por empresas particulares. A diferencia de los presupuestos públicos, los del sector privado calculan primero la cantidad de recursos provenientes del desarrollo de la actividad principal del negocio, como son las ventas de contado, el recaudo de cartera y la financiación con proveedores. Luego determinan el monto de la inversión requerida tanto en activos como en funcionamiento (costos y gastos), y finalmente calculan los requerimientos de financiación con pasivo financiero y con patrimonio.
+            p Son elaborados por empresas particulares. A diferencia de los presupuestos públicos, los del sector privado calculan primero la cantidad de recursos provenientes del desarrollo de la actividad principal del negocio, como son las ventas de contado, el recaudo de cartera y la financiación con proveedores. Luego determinan el monto de la inversión requerida, tanto en activos como en funcionamiento (costos y gastos), y finalmente calculan los requerimientos de financiación con pasivo financiero y con patrimonio.
 
       .col-lg-4.d-lg-block.d-none
         figure

@@ -53,7 +53,7 @@
 
     .row.align-items-center.mt-4
       .col-lg-8
-        p La proyección de gastos financieros representa la estimación de los costos que genera a la empresa, el uso de fuentes externas de financiamientos para sus actividades para facilitar las transacciones provenientes del curso del negocio por tener disponible y seguro el efectivo de la empresa. 
+        p La proyección de gastos financieros representa la estimación de los costos que genera a la empresa, el uso de fuentes externas de financiamiento para sus actividades, para facilitar las transacciones provenientes del curso del negocio por tener disponible y seguro el efectivo de la empresa. 
 
         .row.bg-4.p-4(data-aos="fade-left")
           .col-lg-2.d-lg-block.d-none

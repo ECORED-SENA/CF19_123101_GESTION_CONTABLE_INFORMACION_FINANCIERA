@@ -13,7 +13,7 @@
         .p-5
           .row.align-items-center
             .col-lg-9
-              p El presupuesto es una herramienta fundamental en la gestión financiera de las organizaciones, ya que permite proyectar, controlar y evaluar los recursos necesarios para alcanzar los objetivos estratégicos. A través del presupuesto, las empresas pueden anticiparse a escenarios financieros, planificar sus actividades y optimizar la asignación de recursos en función de sus metas.
+              p(data-aos="fade-left") El presupuesto es una herramienta fundamental en la gestión financiera de las organizaciones, ya que permite proyectar, controlar y evaluar los recursos necesarios para alcanzar los objetivos estratégicos. A través del presupuesto, las empresas pueden anticiparse a escenarios financieros, planificar sus actividades y optimizar la asignación de recursos en función de sus metas.
 
               .row.justify-content-center
                 .col-lg-12.mt-4
@@ -25,7 +25,7 @@
                             img(src='@/assets/curso/intro/img1.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
                         .col-lg.p-lg-5
                           .p-2.w-100.align-items-center
-                            p En la actualidad, en medio de tanta competitividad se hace necesario que las empresas tengan una cultura empresarial, y de servicio al cliente, donde se otorgue gran importancia a la satisfacción de las necesidades, expectativas y gustos de los diferentes usuarios.
+                            p En la actualidad, en medio de tanta competitividad, se hace necesario que las empresas tengan una cultura empresarial, y de servicio al cliente, donde se otorgue gran importancia a la satisfacción de las necesidades, expectativas y gustos de los diferentes usuarios.
 
               p.mt-4 Además, se complementa el contenido con un caso práctico, aplicando técnicas como la regresión lineal para la proyección de ventas, y se desarrollan cálculos clave para definir costos, inversiones y fuentes de financiación. Este enfoque integral prepara al aprendiz para enfrentar retos reales en la elaboración de presupuestos empresariales.
 

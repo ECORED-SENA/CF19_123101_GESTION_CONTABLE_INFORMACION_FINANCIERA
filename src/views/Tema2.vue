@@ -198,23 +198,23 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td.text-start Año 1 
-                td.text-start 4.950.000
+                td.text-center Año 1 
+                td.text-end $4.950.000
               tr
-                td.text-start Año 2
-                td.text-start 5.380.000
+                td.text-center Año 2
+                td.text-end $5.380.000
               tr
-                td.text-start Año 3
-                td.text-start 5.760.000
+                td.text-center Año 3
+                td.text-end $5.760.000
               tr
-                td.text-start Año 4
-                td.text-start 6.150.000
+                td.text-center Año 4
+                td.text-end $6.150.000
               tr
-                td.text-start Año 5
-                td.text-start 6.625.000
+                td.text-center Año 5
+                td.text-end $6.625.000
               tr
-                td.text-start Año 6
-                td.text-start 8.377.500
+                td.text-center Año 6
+                td.text-end $8.377.500
 
     .row.align-items-center.mt-4
       .col-lg-8 
@@ -278,44 +278,44 @@
               tr
                 td.text-start Año 1
                 td.text-center 1
-                td.text-center 4.950.000
-                td.text-center 4.950.000
+                td.text-end $4.950.000
+                td.text-end $4.950.000
                 td.text-center 1
               tr
                 td.text-start Año 2
                 td.text-center 2
-                td.text-center 5.380.000
-                td.text-center 10.760.000
+                td.text-end $5.380.000
+                td.text-end $10.760.000
                 td.text-center 4
               tr
                 td.text-start Año 3
                 td.text-center 3
-                td.text-center 5.760.000
-                td.text-center 17.280.000
+                td.text-end $5.760.000
+                td.text-end $17.280.000
                 td.text-center 9
               tr
                 td.text-start Año 4
                 td.text-center 4
-                td.text-center 6.150.000
-                td.text-center 24.000.000
+                td.text-end $6.150.000
+                td.text-end $24.000.000
                 td.text-center 16
               tr
                 td.text-start Año 5
                 td.text-center 5
-                td.text-center 6.625.000
-                td.text-center 33.125.000
+                td.text-end $6.625.000
+                td.text-end $33.125.000
                 td.text-center 25
               tr
                 td.text-start Año 6
                 td.text-center 6
-                td.text-center 8.377.500
-                td.text-center 50.265.000
+                td.text-end $8.377.500
+                td.text-end $50.265.000
                 td.text-center 36
               tr(style="font-weight: bold")
                 td.text-start Sumatorias
                 td.text-center 21
-                td.text-center 37.242.500
-                td.text-center 140.980.000
+                td.text-end $37.242.500
+                td.text-end $140.980.000
                 td.text-center 91
 
     p.mt-4 El resumen de los datos es el siguiente:
@@ -336,16 +336,16 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Sumatoria de Y
-                td.text-center 37.242.500
+                td.text-end $37.242.500
               tr
                 td.text-start Sumatoria de X
-                td.text-center 21
+                td.text-end 21
               tr
                 td.text-start Sumatoria de XY
-                td.text-center 140.980.000
+                td.text-end $140.980.000
               tr
                 td.text-start Sumatoria de X²
-                td.text-center 91
+                td.text-end 91
 
 
     ol.lista-ol--cuadro.mt-4
@@ -369,7 +369,7 @@
           span.text-black c
         | Con los datos calculados de #[b #[i m]] y #[b #[i b]] se proyectan las ventas para los períodos que se necesiten. 
       
-    p A continuación, se muestra la proyección para 6 años siendo 7 el primer año de la proyección:
+    p A continuación, se muestra la proyección para 6 años, siendo 7 el primer año de la proyección:
 
     .row.justify-content-center
       .col-lg-8
@@ -389,33 +389,33 @@
               tr
                 td.text-start Año 1
                 td.text-center 7
-                td.text-center 8.333.333
+                td.text-end $8.333.333
               tr
                 td.text-start Año 2
                 td.text-center 8
-                td.text-center 8.940.833
+                td.text-end $8.940.833
               tr
                 td.text-start Año 3
                 td.text-center 9
-                td.text-center 9.548.333
+                td.text-end $9.548.333
               tr
                 td.text-start Año 4
                 td.text-center 10
-                td.text-center 10.155.833
+                td.text-end $10.155.833
               tr
                 td.text-start Año 5
                 td.text-center 11
-                td.text-center 10.763.333
+                td.text-end $10.763.333
               tr
                 td.text-start Año 6
                 td.text-center 12
-                td.text-center 11.370.833
+                td.text-end $11.370.833
 
     ol.lista-ol--cuadro.mt-4
       li 
         .lista-ol--cuadro__vineta
           span.text-black f
-        | De acuerdo con un estudio del mercado, la empresa podría participar con una participación del 1,5% de las ventas del sector, por lo cual la empresa vendería durante los próximos 6 años el siguiente volumen de unidades:
+        | De acuerdo con un estudio del mercado, la empresa podría participar con una participación del 1,5 % de las ventas del sector, por lo cual la empresa vendería durante los próximos 6 años el siguiente volumen de unidades:
 
     .row.justify-content-center
       .col-lg-8
@@ -433,29 +433,29 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td.text-center 8.333.333
-                td.text-center 1,5%
-                td.text-center 125.000
+                td.text-end $8.333.333
+                td.text-center 1,5 %
+                td.text-end $125.000
               tr
-                td.text-center 8.940.833
-                td.text-center 1,5%
-                td.text-center 134.113
+                td.text-end $8.940.833
+                td.text-center 1,5 %
+                td.text-end $134.113
               tr
-                td.text-center 9.548.333
-                td.text-center 1,5%
-                td.text-center 143.225
+                td.text-end $9.548.333
+                td.text-center 1,5 %
+                td.text-end $143.225
               tr
-                td.text-center 10.155.833
-                td.text-center 1,5%
-                td.text-center 152.338
+                td.text-end $10.155.833
+                td.text-center 1,5 %
+                td.text-end $152.338
               tr
-                td.text-center 10.763.333
-                td.text-center 1,5%
-                td.text-center 161.450
+                td.text-end $10.763.333
+                td.text-center 1,5 %
+                td.text-end $161.450
               tr
-                td.text-center 11.370.833
-                td.text-center 1,5%
-                td.text-center 170.563
+                td.text-end $11.370.833
+                td.text-center 1,5 %
+                td.text-end $170.563
 
     .row.mt-4
       .col-lg-8
@@ -496,30 +496,30 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td.text-center 4.950.000
-                td.text-center
+                td.text-end $4.950.000
+                td.text-center -
               tr
-                td.text-center 5.380.000
-                td.text-center 8,69%
+                td.text-end $5.380.000
+                td.text-center 8,69 %
               tr
-                td.text-center 5.760.000
-                td.text-center 7,06%
+                td.text-end $5.760.000
+                td.text-center 7,06 %
               tr
-                td.text-center 6.150.000
-                td.text-center 6,77%
+                td.text-end $6.150.000
+                td.text-center 6,77 %
               tr
-                td.text-center 6.625.000
-                td.text-center 7,72%
+                td.text-end $6.625.000
+                td.text-center 7,72 %
               tr
-                td.text-center 8.377.500
-                td.text-center 26,45%
+                td.text-end $8.377.500
+                td.text-center 26,45 %
               tr
-                td.text-center Promedio
-                td.text-center 11,34%
+                td.text-end Promedio
+                td.text-center 11,34 %
 
         p.mt-4 Si se utiliza este método, las ventas para el primer año de proyección sería de:
 
-        p.p-4.bg-12 8.377.500 x (1+11,34%) = 9.327.463
+        p.p-4.bg-12 $8.377.500 x (1+11,34 %) = $9.327.463
 
     .row
       .col-lg-8
@@ -556,25 +556,25 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td Ventas esperadas para el primer año (unidades)
-                td.text-center 125.000
+                td.text-end $125.000
               tr
                 td Precio de venta unitario
-                td.text-center $245
+                td.text-end $245
               tr
                 td Costo Primo
-                td.text-center
+                td.text-end -
               tr
                 td Costo unitario de materia prima
-                td.text-center $85
+                td.text-end $85
               tr
                 td Costo unitario de mano de obra directa
-                td.text-center $35
+                td.text-end $35
               tr
                 td Porcentaje de prestaciones sociales
-                td.text-center 50%
+                td.text-end 50 %
               tr
                 td Porcentaje de prestaciones pagadas de contado
-                td.text-center 80%
+                td.text-end 80 %
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -591,16 +591,16 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td Mano de obra indirecta
-                td.text-center $65.000
+                td.text-end $65.000
               tr
                 td Arrendamiento
-                td.text-center $22.000
+                td.text-end $22.000
               tr
                 td Mantenimiento
-                td.text-center $11.000
+                td.text-end $11.000
               tr
                 td Otros
-                td.text-center $45.000
+                td.text-end $45.000
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -629,7 +629,7 @@
                 td.text-center 75 días
               tr
                 td Tasa de impuesto a la renta
-                td.text-center 35%
+                td.text-center 35 %
 
     p.mt-4 Inicialmente, se debe elaborar el presupuesto de producción para determinar el número de unidades a producir, cifra que depende del volumen de ventas, y de las políticas sobre inventarios de productos en proceso y productos terminados. En este proceso se utiliza el conocido método de juego de inventarios de la siguiente manera:
    
@@ -683,7 +683,7 @@
                 td.text-center Menos ( – )
               tr
                 td Menos inventario inicial
-                td.text-center
+                td.text-center -
               tr
                 td Más inventario final
                 td.text-center Más ( + )
@@ -774,26 +774,26 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Unidades a vender
-                td.text-center 125.000
+                td.text-end $125.000
               tr
                 td.text-start Menos inventario inicial de productos en proceso
-                td.text-center –
+                td.text-end –
               tr
                 td.text-start Menos inventario final de productos terminados
-                td.text-center –
+                td.text-end –
               tr
                 td.text-start Más inventario final de productos en proceso
-                td.text-center 5.208
+                td.text-end $5.208
               tr
                 td.text-start Más inventario final de productos terminados
-                td.text-center 26.042
+                td.text-end $26.042
               tr
                 td.text-start #[b = Unidades a producir]
-                td.text-center #[b 156.250]
+                td.text-end #[b $156.250]
 
     p.mt-4 Seguidamente se calcula el presupuesto de costo de producción:
 
-    p Con el valor del costo de producción unitario en efectivo
+    p Con el valor del costo de producción unitario en efectivo.
 
     .row.justify-content-center
       .col-lg-12
@@ -811,52 +811,52 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Materia prima
-                td.text-center 85 x 156.250
-                td.text-center $13.281.250
+                td.text-end 85 x $156.250
+                td.text-end $13.281.250
               tr
                 td.text-start Mano de obra directa
-                td.text-center 35 x 156.250
-                td.text-center $5.468.750
+                td.text-end 35 x $156.250
+                td.text-end $5.468.750
               tr
                 td.text-start Mano de obra indirecta (mensual x 12)
-                td.text-center 65.000 x 12
-                td.text-center $780.000
+                td.text-end $65.000 x 12
+                td.text-end $780.000
               tr
-                td.text-start Prestaciones sociales (50%)
-                td.text-center (5.468.750 x 50%)
-                td.text-center $2.734.375
+                td.text-start Prestaciones sociales (50 %)
+                td.text-end ($5.468.750 x 50 %)
+                td.text-end $2.734.375
               tr
                 td.text-start Arrendamiento (mensual x 12)
-                td.text-center 22.000 x 12
-                td.text-center $264.000
+                td.text-end $22.000 x 12
+                td.text-end $264.000
               tr
                 td.text-start Mantenimiento (mensual x 12)
-                td.text-center 11.000 x 12
-                td.text-center $132.000
+                td.text-end $11.000 x 12
+                td.text-end $132.000
               tr
                 td.text-start Otros costos indirectos (mensual x 12)
-                td.text-center 45.000 x 12
-                td.text-center $540.000
+                td.text-end $45.000 x 12
+                td.text-end $540.000
               tr
-                td.text-start #[b Total costos en efectivo]
-                td
-                td.text-center #[b $23.590.375]
+                td.text-start Total costos en efectivo
+                td.text-end -
+                td.text-end $23.590.375
               tr
                 td.text-start Depreciación
-                td
-                td.text-center #[b $1.200.000]
+                td.text-end -
+                td.text-end $1.200.000
               tr
-                td.text-start #[b Costo total de producción]
-                td
-                td.text-center #[b $24.790.375]
+                td.text-start Costo total de producción
+                td.text-end -
+                td.text-end $24.790.375
               tr
-                td.text-start #[b Costo unitario total]
-                td.text-center 24.790.375 / 156.250
-                td.text-center #[b $158,66]
+                td.text-start Costo unitario total
+                td.text-end $24.790.375 / 156.250
+                td.text-end $158,66
               tr
-                td.text-start #[b Costo unitario en efectivo]
-                td.text-center 23.590.375 / 156.250
-                td.text-center #[b $150,98]
+                td.text-start Costo unitario en efectivo
+                td.text-end $23.590.375 / 156.250
+                td.text-end $150,98
 
 
     p.mt-4  Se calcula la inversión que se debe hacer en inventarios y en cartera:
@@ -877,24 +877,24 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Productos en proceso
-                td.text-center 5.208 x 150,98
-                td.text-center $786.346
+                td.text-end $5.208 x 150,98
+                td.text-end $786.346
               tr
                 td.text-start Productos terminados
-                td.text-center 26.042 x 150,98
-                td.text-center $3.931.729
+                td.text-end $26.042 x 150,98
+                td.text-end $3.931.729
               tr
                 td.text-start Materia prima
-                td.text-center (13.281.350 / 360) x 60
-                td.text-center $2.213.542
+                td.text-end ($13.281.350 / 360) x 60
+                td.text-end $2.213.542
               tr
                 td.text-start Cartera
-                td.text-center (125.000 / 360 x 60) x 150,98
-                td.text-center $3.145.383
+                td.text-end ($125.000 / 360 x 60) x 150,98
+                td.text-end $3.145.383
               tr
-                td.text-start #[b Total inversión en capital de trabajo operativo]
-                td
-                td.text-center #[b $10.077.000]
+                td.text-start Total inversión en capital de trabajo operativo
+                td.text-end -
+                td.text-end $10.077.000
 
     .row.mt-4
       .col-lg-4.d-lg-block.d-none
@@ -915,29 +915,29 @@
     .row.mt-4
       .col-lg-8
         .row.p-4.bg-4
-          p Para determinar el valor de la inversión en cartera se debe determinar el número de unidades que los clientes quedan debiendo al final del periodo y luego multiplicar ese número por el costo unitario en efectivo. Si al año se venden 125.000 unidades y los clientes quedan debiendo el equivalente a 60 días, pues quedan debiendo 20.833 unidades calculas de la siguiente manera:
+          p Para determinar el valor de la inversión en cartera, se debe determinar el número de unidades que los clientes quedan debiendo al final del periodo y luego multiplicar ese número por el costo unitario en efectivo. Si al año se venden 125.000 unidades y los clientes quedan debiendo el equivalente a 60 días, pues quedan debiendo 20.833 unidades calculadas de la siguiente manera:
 
           figure
             img(src="@/assets/curso/tema2/img28.svg", alt="", style="width: 213px")
 
-          p.mt-4 Las cuales valoradas al costo unitario en efectivo dan una inversión de $3.145.383:
+          p.mt-4 Las cuales, valoradas al costo unitario en efectivo, dan una inversión de $3.145.383:
 
           figure
             img(src="@/assets/curso/tema2/img29.svg", alt="", style="width: 260px")
 
-          p.mt-4 La inversión total en capital de trabajo operativo se debe financiar una parte con proveedores y el resto con el flujo de caja generado por la empresa.
+          p.mt-4 La inversión total en capital de trabajo operativo se debe financiar, una parte con proveedores y el resto, con el flujo de caja generado por la empresa.
 
       .col-lg-4.d-lg-block.d-none
         figure
           img(src='@/assets/curso/tema2/img30.png' style="width: 400px").m-auto
 
-    p.mt-4 Para calcular el valor a financiar con proveedores se debe determinar primero el valor de las compras de materia prima de todo el periodo.
+    p.mt-4 Para calcular el valor a financiar con proveedores, se debe determinar primero el valor de las compras de materia prima de todo el periodo.
 
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 16.
-          span Financiación con Proveedores (en miles de pesos)estadísticos para regresión lineal
+          span Financiación con proveedores (en miles de pesos) estadísticos para regresión lineal
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -948,16 +948,16 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Consumo de materia prima
-                td.text-center $13.281.250
+                td.text-end $13.281.250
               tr
                 td.text-start Menos: Inventario inicial de materia prima
-                td.text-center $0
+                td.text-end $0
               tr
                 td.text-start Más: Inventario final de materia prima
-                td.text-center $2.213.542
+                td.text-end $2.213.542
               tr
                 td.text-start = Compras a crédito
-                td.text-center #[b $15.494.792]
+                td.text-end $15.494.792
 
       
     .row.mt-4
@@ -988,25 +988,25 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Efectivo
-                td.text-center $1.697.458
+                td.text-end $1.697.458
               tr
                 td.text-start Cuentas por cobrar
-                td.text-center $3.145.383
+                td.text-end $3.145.383
               tr
                 td.text-start Inventario de materia prima
-                td.text-center $2.213.542
+                td.text-end $2.213.542
               tr
                 td.text-start Inventario de productos en proceso
-                td.text-center $786.346
+                td.text-end $786.346
               tr
                 td.text-start Inventario de productos terminados
-                td.text-center $3.931.729
+                td.text-end $3.931.729
               tr
                 td.text-start Maquinaria
-                td.text-center $12.000.000
+                td.text-end $12.000.000
               tr
-                td.text-start #[b Total inversión en activos]
-                td.text-center #[b $23.774.458]
+                td.text-start Total inversión en activos
+                td.text-end $23.774.458
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 18.
@@ -1021,16 +1021,16 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Efectivo en activos
-                td.text-center $0
+                td.text-end $0
               tr
                 td.text-start Proveedores
-                td.text-center $1.936.849
+                td.text-end $1.936.849
               tr
                 td.text-start Préstamos bancarios
-                td.text-center $7.500.000
+                td.text-end $7.500.000
               tr
-                td.text-start #[b Total financiación]
-                td.text-center #[b $9.436.849]
+                td.text-start Total financiación
+                td.text-end $9.436.849
 
 
 
@@ -1047,13 +1047,13 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Inversión total en activos
-                td.text-center $23.774.458
+                td.text-end $23.774.458
               tr
-                td.text-start Menos: Financiación disponible
-                td.text-center $9.436.849
+                td.text-start Menos: financiación disponible
+                td.text-end $9.436.849
               tr
-                td.text-start #[b = Total aporte requerido de socios]
-                td.text-center #[b $14.337.609]
+                td.text-start = Total aporte requerido de socios
+                td.text-end $14.337.609
 
     p.mt-4 El siguiente paso es calcular el costo de ventas.
 
@@ -1072,34 +1072,34 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Inventario inicial de productos en proceso
-                td.text-center $0
+                td.text-end $0
               tr
                 td.text-start Más: Costo de producción
-                td.text-center $24.790.375
+                td.text-end $24.790.375
               tr
                 td.text-start Menos: Inventario final de productos en proceso
-                td.text-center $826.346
+                td.text-end $826.346
               tr
-                td.text-start #[b = Costo de productos terminados]
-                td.text-center #[b $23.964.029]
+                td.text-start = Costo de productos terminados
+                td.text-end  $23.964.029
               tr
                 td.text-start Más: Inventario inicial de productos terminados
-                td.text-center —
+                td.text-end —
               tr
                 td.text-start Menos: Inventario final de productos terminados
-                td.text-center $4.131.729
+                td.text-end $4.131.729
               tr
-                td.text-start #[b = Total costo de venta]
-                td.text-center #[b $19.832.300]
+                td.text-start = Total costo de venta
+                td.text-end $19.832.300
 
     p.mt-4 Con el valor del costo de ventas se elabora el estado de resultados proyectado como se muestra a continuación:
 
     .titulo-sexto.color-acento-contenido.mb-3.mt-4
       h5 Figura 2.  
-      span Ingresos de dinero fuente o uso de $ egresos de dinero 
+      span Fuentes de ingresos y usos de dinero según la actividad operativa, de inversión y financiación
 
     figure
-      img(src='@/assets/curso/tema2/img33.svg', alt='', style="width: 1240px").m-auto
+      img(src='@/assets/curso/tema2/img33.svg', alt='Esquema sobre ingresos y egresos de dinero clasificados en actividades operativas, de inversión y financiación, con fuentes como ventas, inversiones y préstamos, y usos como pagos de costos, compras, dividendos y servicio de deuda.', style="width: 1240px").m-auto
 
 
     .row.mb-2.ms-0.mt-4
@@ -1126,15 +1126,15 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Ventas a crédito
-                td.text-center $30.625.000
+                td.text-end $30.625.000
                 td.text-center Resultados
               tr
                 td.text-start Los clientes quedan debiendo 60 días
-                td.text-center $5.104.166
+                td.text-end $5.104.166
                 td.text-center Balance general
               tr
                 td.text-start Los clientes pagaron 300 días
-                td.text-center $25.520.833
+                td.text-end $25.520.833
                 td.text-center Flujo de efectivo
 
 
@@ -1155,40 +1155,40 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Efectivo generado por las operaciones
-                td -
+                td.text-end  -
               tr
                 td.text-start Recaudo de cartera
-                td.text-center $25.520.833
+                td.text-end $25.520.833
               tr
                 td.text-start Menos: Egresos operativos
-                td -
+                td.text-end -
               tr
                 td.text-start Pagos de materia prima
-                td.text-center $13.557.943
+                td.text-end $13.557.943
               tr
                 td.text-start Sueldos y salarios
-                td.text-center $6.248.750
+                td.text-end $6.248.750
               tr
                 td.text-start Prestaciones sociales
-                td.text-center $2.499.500
+                td.text-end $2.499.500
               tr
                 td.text-start Arrendamiento
-                td.text-center $264.000
+                td.text-end $264.000
               tr
                 td.text-start Mantenimiento
-                td.text-center $132.000
+                td.text-end $132.000
               tr
                 td.text-start Otros costos indirectos
-                td.text-center $540.000
+                td.text-end $540.000
               tr
                 td.text-start Gastos de administración y ventas
-                td.text-center $3.000.000
+                td.text-end $3.000.000
               tr
                 td.text-start Total egresos operativos
-                td.text-center $26.242.193
+                td.text-end $26.242.193
               tr
                 td.text-start Total efectivo generado por operaciones
-                td.text-center $721.359
+                td.text-end $721.359
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -1204,19 +1204,19 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Aportes de socios
-                td.text-center $14.337.609
+                td.text-end $14.337.609
               tr
                 td.text-start Préstamos bancarios
-                td.text-center $7.500.000
+                td.text-end $7.500.000
               tr
                 td.text-start Menos: Abono a préstamo
-                td.text-center $2.500.000
+                td.text-end $2.500.000
               tr
                 td.text-start Menos: Intereses
-                td.text-center $1.800.000
+                td.text-end $1.800.000
               tr
                 td.text-start Efectivo provisto por actividades de financiación
-                td.text-center $17.537.609
+                td.text-end $17.537.609
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -1232,26 +1232,26 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Menos: efectivo que demandarán las actividades de inversión
-                td.text-center -
+                td.text-end -
               tr
                 td.text-start Compra de maquinaria
-                td.text-center $12.000.000
+                td.text-end $12.000.000
               tr
                 td.text-start Total efectivo demandado actividades de inversión
-                td.text-center $12.000.000
+                td.text-end $12.000.000
               tr
                 td.text-start Aumento del efectivo
-                td.text-center $4.816.250
+                td.text-end $4.816.250
               tr
                 td.text-start Más: efectivo inicial
-                td.text-center $0
+                td.text-end $0
               tr
                 td.text-start Efectivo final
-                td.text-center #[b $4.816.250]
+                td.text-end $4.816.250
 
     .row.mt-4
       .col-lg-8
-        p Como es el primer año de actividades no hay efectivo inicial.
+        p Como es el primer año de actividades, no hay efectivo inicial.
         .row.align-items-center.p-4.bg-4
           .col-lg-2.d-lg-block.d-none
             figure
@@ -1282,28 +1282,28 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Efectivo
-                td.text-center $4.816.250
+                td.text-end $4.816.250
               tr
                 td.text-start Cuentas por cobrar
-                td.text-center $5.104.166
+                td.text-end $5.104.166
               tr
                 td.text-start Materias primas
-                td.text-center $2.213.541
+                td.text-end $2.213.541
               tr
                 td.text-start Producto en proceso
-                td.text-center $826
+                td.text-end $826
               tr
                 td.text-start Producto terminado
-                td.text-center $4.131.729
+                td.text-end $4.131.729
               tr
                 td.text-start Maquinaria
-                td.text-center $12.000.000
+                td.text-end $12.000.000
               tr
                 td.text-start Menos: depreciación acumulada
-                td.text-center -$1.200.000
+                td.text-end -$1.200.000
               tr
-                td.text-start #[b Total activos]
-                td.text-center #[b $27.892.033]
+                td.text-start Total activos
+                td.text-end $27.892.033
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -1319,19 +1319,19 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Proveedores
-                td.text-center $1.936.849
+                td.text-end $1.936.849
               tr
                 td.text-start Préstamos bancarios
-                td.text-center $5.000.000
+                td.text-end $5.000.000
               tr
                 td.text-start Impuestos por pagar
-                td.text-center $2.097.445
+                td.text-end $2.097.445
               tr
                 td.text-start Prestaciones sociales
-                td.text-center $624.875
+                td.text-end $624.875
               tr
-                td.text-start #[b Total pasivos]
-                td.text-center #[b $9.659.169]
+                td.text-start Total pasivos
+                td.text-end $9.659.169
 
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
@@ -1347,13 +1347,13 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Capital
-                td.text-center $14.337.609
+                td.text-end $14.337.609
               tr
                 td.text-start Utilidades retenidas
-                td.text-center $3.895.255
+                td.text-end $3.895.255
               tr
-                td.text-start #[b Total patrimonio]
-                td.text-center #[b $18.232.864]
+                td.text-start Total patrimonio
+                td.text-end $18.232.864
 
 
 
