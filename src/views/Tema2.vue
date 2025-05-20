@@ -199,22 +199,22 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-center Año 1 
-                td.text-end $4.950.000
+                td.text-end 4.950.000
               tr
                 td.text-center Año 2
-                td.text-end $5.380.000
+                td.text-end 5.380.000
               tr
                 td.text-center Año 3
-                td.text-end $5.760.000
+                td.text-end 5.760.000
               tr
                 td.text-center Año 4
-                td.text-end $6.150.000
+                td.text-end 6.150.000
               tr
                 td.text-center Año 5
-                td.text-end $6.625.000
+                td.text-end 6.625.000
               tr
                 td.text-center Año 6
-                td.text-end $8.377.500
+                td.text-end 8.377.500
 
     .row.align-items-center.mt-4
       .col-lg-8 
@@ -278,44 +278,44 @@
               tr
                 td.text-start Año 1
                 td.text-center 1
-                td.text-end $4.950.000
-                td.text-end $4.950.000
+                td.text-end 4.950.000
+                td.text-end 4.950.000
                 td.text-center 1
               tr
                 td.text-start Año 2
                 td.text-center 2
-                td.text-end $5.380.000
-                td.text-end $10.760.000
+                td.text-end 5.380.000
+                td.text-end 10.760.000
                 td.text-center 4
               tr
                 td.text-start Año 3
                 td.text-center 3
-                td.text-end $5.760.000
-                td.text-end $17.280.000
+                td.text-end 5.760.000
+                td.text-end 17.280.000
                 td.text-center 9
               tr
                 td.text-start Año 4
                 td.text-center 4
-                td.text-end $6.150.000
-                td.text-end $24.000.000
+                td.text-end 6.150.000
+                td.text-end 24.000.000
                 td.text-center 16
               tr
                 td.text-start Año 5
                 td.text-center 5
-                td.text-end $6.625.000
-                td.text-end $33.125.000
+                td.text-end 6.625.000
+                td.text-end 33.125.000
                 td.text-center 25
               tr
                 td.text-start Año 6
                 td.text-center 6
-                td.text-end $8.377.500
-                td.text-end $50.265.000
+                td.text-end 8.377.500
+                td.text-end 50.265.000
                 td.text-center 36
               tr(style="font-weight: bold")
                 td.text-start Sumatorias
                 td.text-center 21
-                td.text-end $37.242.500
-                td.text-end $140.980.000
+                td.text-end 37.242.500
+                td.text-end 140.980.000
                 td.text-center 91
 
     p.mt-4 El resumen de los datos es el siguiente:
@@ -336,13 +336,13 @@
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Sumatoria de Y
-                td.text-end $37.242.500
+                td.text-end 37.242.500
               tr
                 td.text-start Sumatoria de X
                 td.text-end 21
               tr
                 td.text-start Sumatoria de XY
-                td.text-end $140.980.000
+                td.text-end 140.980.000
               tr
                 td.text-start Sumatoria de X²
                 td.text-end 91
@@ -389,27 +389,27 @@
               tr
                 td.text-start Año 1
                 td.text-center 7
-                td.text-end $8.333.333
+                td.text-end 8.333.333
               tr
                 td.text-start Año 2
                 td.text-center 8
-                td.text-end $8.940.833
+                td.text-end 8.940.833
               tr
                 td.text-start Año 3
                 td.text-center 9
-                td.text-end $9.548.333
+                td.text-end 9.548.333
               tr
                 td.text-start Año 4
                 td.text-center 10
-                td.text-end $10.155.833
+                td.text-end 10.155.833
               tr
                 td.text-start Año 5
                 td.text-center 11
-                td.text-end $10.763.333
+                td.text-end 10.763.333
               tr
                 td.text-start Año 6
                 td.text-center 12
-                td.text-end $11.370.833
+                td.text-end 11.370.833
 
     ol.lista-ol--cuadro.mt-4
       li 
@@ -433,27 +433,27 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td.text-end $8.333.333
+                td.text-end 8.333.333
                 td.text-center 1,5 %
                 td.text-end $125.000
               tr
-                td.text-end $8.940.833
+                td.text-end 8.940.833
                 td.text-center 1,5 %
                 td.text-end $134.113
               tr
-                td.text-end $9.548.333
+                td.text-end 9.548.333
                 td.text-center 1,5 %
                 td.text-end $143.225
               tr
-                td.text-end $10.155.833
+                td.text-end 10.155.833
                 td.text-center 1,5 %
                 td.text-end $152.338
               tr
-                td.text-end $10.763.333
+                td.text-end 10.763.333
                 td.text-center 1,5 %
                 td.text-end $161.450
               tr
-                td.text-end $11.370.833
+                td.text-end 11.370.833
                 td.text-center 1,5 %
                 td.text-end $170.563
 
