@@ -360,13 +360,12 @@
 
     .row.bg-11.justify-content-center.p-4
       figure
-        img(src='@/assets/curso/tema2/img17.svg', alt='', style="width: 647px").m-auto
-
+        img(src='@/assets/curso/tema2/img17.svg', alt='Gráfico de dispersión con línea de regresión lineal que representa la tendencia de ventas proyectadas.', style="width: 647px").m-auto
 
     ol.lista-ol--cuadro.mt-4
       li 
         .lista-ol--cuadro__vineta
-          span.text-black c
+          span.text-black e
         | Con los datos calculados de #[b #[i m]] y #[b #[i b]] se proyectan las ventas para los períodos que se necesiten. 
       
     p A continuación, se muestra la proyección para 6 años, siendo 7 el primer año de la proyección:
@@ -555,25 +554,25 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td Ventas esperadas para el primer año (unidades)
+                td.text-start Ventas esperadas para el primer año (unidades)
                 td.text-end $125.000
               tr
-                td Precio de venta unitario
+                td.text-start Precio de venta unitario
                 td.text-end $245
               tr
-                td Costo Primo
+                td.text-start Costo Primo
                 td.text-end -
               tr
-                td Costo unitario de materia prima
+                td.text-start Costo unitario de materia prima
                 td.text-end $85
               tr
-                td Costo unitario de mano de obra directa
+                td.text-start Costo unitario de mano de obra directa
                 td.text-end $35
               tr
-                td Porcentaje de prestaciones sociales
+                td.text-start Porcentaje de prestaciones sociales
                 td.text-end 50 %
               tr
-                td Porcentaje de prestaciones pagadas de contado
+                td.text-start Porcentaje de prestaciones pagadas de contado
                 td.text-end 80 %
 
 
@@ -590,16 +589,16 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td Mano de obra indirecta
+                td.text-start Mano de obra indirecta
                 td.text-end $65.000
               tr
-                td Arrendamiento
+                td.text-start Arrendamiento
                 td.text-end $22.000
               tr
-                td Mantenimiento
+                td.text-start Mantenimiento
                 td.text-end $11.000
               tr
-                td Otros
+                td.text-start Otros
                 td.text-end $45.000
 
 
@@ -616,19 +615,19 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td Cuentas por cobrar (días de ventas)
+                td.text-start Cuentas por cobrar (días de ventas)
                 td.text-center 60 días
               tr
-                td Materia prima (días de producción)
+                td.text-start Materia prima (días de producción)
                 td.text-center 60 días
               tr
-                td Productos en proceso (días de venta)
+                td.text-start Productos en proceso (días de venta)
                 td.text-center 15 días
               tr
-                td Producto terminado (días de ventas)
+                td.text-start Producto terminado (días de ventas)
                 td.text-center 75 días
               tr
-                td Tasa de impuesto a la renta
+                td.text-start Tasa de impuesto a la renta
                 td.text-center 35 %
 
     p.mt-4 Inicialmente, se debe elaborar el presupuesto de producción para determinar el número de unidades a producir, cifra que depende del volumen de ventas, y de las políticas sobre inventarios de productos en proceso y productos terminados. En este proceso se utiliza el conocido método de juego de inventarios de la siguiente manera:
@@ -648,16 +647,16 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td Inventario inicial
+                td.text-start Inventario inicial
                 td.text-center Más ( + )
               tr
-                td Unidades a producir
+                td.text-start Unidades a producir
                 td.text-center Igual ( = )
               tr
-                td Menos inventario final
+                td.text-start Menos inventario final
                 td.text-center Menos ( – )
               tr
-                td Igual
+                td.text-start Igual
                 td.text-center Unidades a vender
 
 
@@ -679,16 +678,16 @@
 
             tbody(style="background-color: #F6F6F6")
               tr
-                td Unidades a vender
+                td.text-start Unidades a vender
                 td.text-center Menos ( – )
               tr
-                td Menos inventario inicial
+                td.text-start Menos inventario inicial
                 td.text-center -
               tr
-                td Más inventario final
+                td.text-start Más inventario final
                 td.text-center Más ( + )
               tr
-                td Igual
+                td.text-start Igual
                 td.text-center Unidades a producir
 
     p.mt-4 Ahora bien, el caso plantea que al final del periodo presupuestado quedan no sólo unidades de productos terminados sino también de productos en proceso. 
@@ -1122,7 +1121,7 @@
               tr(style="background-color: #FD9826")
                 th Operación
                 th Valor
-                th 
+                th Estado financieros
             tbody(style="background-color: #F6F6F6")
               tr
                 td.text-start Ventas a crédito
