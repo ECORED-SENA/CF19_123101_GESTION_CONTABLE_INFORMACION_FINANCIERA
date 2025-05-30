@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="559.949" height="148.5" viewBox="0 0 559.949 148.5">
+  <g id="Grupo_1178829" data-name="Grupo 1178829" transform="translate(-216.051 -10125.514)">
+    <rect id="Rectángulo_405472" data-name="Rectángulo 405472" width="559.949" height="148.5" transform="translate(216.051 10125.514)" fill="#fff"/>
+    <text id="_Volumen_de_ventas_días_de_inventario_de_productos_terminados_360" data-name="( Volumen de ventas* días de inventario de productos terminados )/360" transform="translate(243.051 10162.014)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">( Volumen de ventas* días de inventario de productos terminados )/360</tspan></text>
+    <text id="_360" data-name="360" transform="translate(483.051 10200.225)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">360</tspan></text>
+    <path id="Trazado_1033456" data-name="Trazado 1033456" d="M-6842.758,6702.94h519.635" transform="translate(7079.309 3467.429)" fill="none" stroke="#12263f" stroke-width="1"/>
+    <g id="Grupo_1178642" data-name="Grupo 1178642" transform="translate(0 89.795)">
+      <text id="_125.000_75_" data-name="125.000 * 75 " transform="translate(242.051 10132.22)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">125.000 * 75 </tspan></text>
+      <text id="_26.042" data-name="= 26.042" transform="translate(353.051 10140.931)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">= 26.042</tspan></text>
+      <text id="_360-2" data-name="360" transform="translate(276.051 10161.931)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">360</tspan></text>
+      <path id="Trazado_1033487" data-name="Trazado 1033487" d="M-6842.758,6702.94h105.291" transform="translate(7079.309 3437.635)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
