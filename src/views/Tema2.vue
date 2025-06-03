@@ -231,7 +231,7 @@
               | <em><b>m</b></em> es la pendiente de la línea de regresión que representa el número de unidades que aumenta y por cada unidad de x. Se calcula con la siguiente fórmula:
 
           figure
-            img(src="@/assets/curso/tema2/img15.svg", alt="", style="width: 214px")
+            img(src="@/assets/curso/tema2/img15.svg", alt="Fórmula para calcular la pendiente (m) en una regresión lineal: se multiplica el número de datos (n) por la suma del producto de cada par de valores x*y, y a esto se le resta el producto entre la suma de x y la suma de y. El resultado se divide entre n por la suma de los cuadrados de x, menos el cuadrado de la suma de x.", style="width: 214px")
 
           ul.lista-ul.mt-4
             li 
@@ -239,7 +239,7 @@
               | <em><b>b</b></em> es la intersección de y en la línea de regresión cuando x toma el valor de cero. Se calcula con la siguiente fórmula:
 
           figure
-            img(src="@/assets/curso/tema2/img16.svg", alt="", style="width: 262px")
+            img(src="@/assets/curso/tema2/img16.svg", alt="Fórmula matemática para calcular la pendiente b en una regresión lineal, con sumatorias de productos y cuadrados de variables x y y, y el número de observaciones n.", style="width: 262px")
 
           ul.lista-ul.mt-4
             li 
@@ -360,7 +360,7 @@
 
     .row.bg-11.justify-content-center.p-4
       figure
-        img(src='@/assets/curso/tema2/img17.svg', alt='Gráfico de dispersión con línea de regresión lineal que representa la tendencia de ventas proyectadas.', style="width: 647px").m-auto
+        img(src='@/assets/curso/tema2/img17.svg', alt='Gráfico de dispersión con línea de regresión lineal ajustada, que incluye puntos de datos y la ecuación de la recta  y=9193,1x+60649.', style="width: 647px").m-auto
 
     ol.lista-ol--cuadro.mt-4
       li 
@@ -470,7 +470,7 @@
           p Se basa en calcular el promedio simple del incremento porcentual en el volumen de ventas de un año con respecto del anterior: 
 
           figure
-            img(src="@/assets/curso/tema2/img19.svg", alt="", style="width: 400px")
+            img(src="@/assets/curso/tema2/img19.svg", alt="Esquema con fórmula para calcular el crecimiento porcentual de ventas entre dos años, que incluye los valores $5.380.000 para el Año 2 y $4.950.000 para el Año 1, resultando en un aumento del 8,69%.", style="width: 400px")
 
         p.mt-4 El cálculo para los seis años quedaría de la siguiente manera:
 
@@ -737,7 +737,7 @@
           p Una política de inventario de productos terminados de 15 días significa que los administradores esperan que el proceso de venta dure máximo 15 días, por consiguiente, al final del periodo presupuestado quedarán unidades terminadas para 15 días de ventas. ¿Cuál es ese número de unidades?
 
           figure
-            img(src="@/assets/curso/tema2/img22.svg", alt="", style="width: 559px")
+            img(src="@/assets/curso/tema2/img22.svg", alt="Fórmula para calcular el inventario promedio de productos terminados, con un ejemplo numérico que multiplica un volumen de ventas de 125.000 por 75 días, dividido entre 360, dando como resultado 26.042.", style="width: 559px")
 
       .col-lg-4.d-lg-block.d-none
         figure
@@ -753,7 +753,7 @@
           p.mb-4 De igual manera se calcula el número de unidades terminadas equivalentes al inventario final de productos en proceso:
 
           figure
-            img(src="@/assets/curso/tema2/img24.svg", alt="", style="width: 559px")
+            img(src="@/assets/curso/tema2/img24.svg", alt="Fórmula para calcular el inventario promedio de productos en proceso, con un ejemplo que multiplica un volumen de ventas de 125.000 por 15 días, dividido entre 360, dando como resultado 5.208.", style="width: 559px")
 
     p.mt-4 Con los datos anteriores se calcula el número de unidades a producir bajo el siguiente esquema:
 
@@ -891,8 +891,7 @@
                 td.text-end ($125.000 / 360 x 60) x 150,98
                 td.text-end $3.145.383
               tr
-                td.text-start Total inversión en capital de trabajo operativo
-                td.text-end -
+                td.text-start(colspan="2") Total inversión en capital de trabajo operativo
                 td.text-end $10.077.000
 
     .row.mt-4
@@ -904,12 +903,12 @@
           p.mt-4 Para calcular el valor de la inversión en inventario de materia prima, se obtiene el consumo diario dividiendo el costo total de materia prima entre el número de días del año.
 
           figure
-            img(src="@/assets/curso/tema2/img26.svg", alt="", style="width: 241px")
+            img(src="@/assets/curso/tema2/img26.svg", alt="Cálculo con división de 13.281.350 entre 360, cuyo resultado es 36.892,36.", style="width: 241px")
 
           p.mt-4 Luego se multiplica el valor diario por los días de materia prima para calcular la inversión en materia prima: 
 
           figure.mb-2
-            img(src="@/assets/curso/tema2/img27.svg", alt="", style="width: 241px")
+            img(src="@/assets/curso/tema2/img27.svg", alt="Multiplicación de 36.892,36 por 60, con resultado igual a 2.212.383.", style="width: 241px")
 
     .row.mt-4
       .col-lg-8
@@ -917,12 +916,12 @@
           p Para determinar el valor de la inversión en cartera, se debe determinar el número de unidades que los clientes quedan debiendo al final del periodo y luego multiplicar ese número por el costo unitario en efectivo. Si al año se venden 125.000 unidades y los clientes quedan debiendo el equivalente a 60 días, pues quedan debiendo 20.833 unidades calculadas de la siguiente manera:
 
           figure
-            img(src="@/assets/curso/tema2/img28.svg", alt="", style="width: 213px")
+            img(src="@/assets/curso/tema2/img28.svg", alt="Cálculo del promedio diario de compras: 125.000 dividido entre 360, multiplicado por 60, da como resultado 20.833.", style="width: 213px")
 
           p.mt-4 Las cuales, valoradas al costo unitario en efectivo, dan una inversión de $3.145.383:
 
           figure
-            img(src="@/assets/curso/tema2/img29.svg", alt="", style="width: 260px")
+            img(src="@/assets/curso/tema2/img29.svg", alt="Multiplicación del promedio diario (20.833,98) por un valor unitario de 150,98, con resultado de 3.145.383.", style="width: 260px")
 
           p.mt-4 La inversión total en capital de trabajo operativo se debe financiar, una parte con proveedores y el resto, con el flujo de caja generado por la empresa.
 
@@ -964,7 +963,7 @@
         .row.p-4.bg-4
           p Luego el valor que la empresa queda debiendo a los proveedores al final del año: 
           figure
-            img(src="@/assets/curso/tema2/img31.svg", alt="", style="width: 289px")
+            img(src="@/assets/curso/tema2/img31.svg", alt="Fórmula para calcular el saldo promedio de cuentas por pagar: compras multiplicadas por días de proveedores, dividido entre 360.", style="width: 289px")
 
         p.mt-4 Ya se tiene información suficiente para determinar el valor total de la inversión inicial requerida en activos que debe hacer la compañía y la financiación disponible:
 
@@ -1105,7 +1104,7 @@
       .col-auto.bg-3(data-aos="fade-left")
         .row.align-items-center
           .col
-            h4.mt-2.mb-2 ¿Qué datos van al estado de flujo de efectivo?
+            h4.mt-2.mb-2 #[b ¿Qué datos van al estado de flujo de efectivo?]
 
     p.mt-4 Veamos, por ejemplo, cómo se reparte el valor de las ventas en los diferentes estados financieros:
 
