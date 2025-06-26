@@ -62,7 +62,7 @@
                   img(src='@/assets/curso/tema1/img4.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
               .col-lg.p-lg-5
                 .p-2.w-100.align-items-center
-                  p Características generales del presupuesto
+                  p Características generales del presupuesto:
 
                   ul.lista-ul--color
                     li.d-flex

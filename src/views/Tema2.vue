@@ -228,7 +228,7 @@
           ul.lista-ul
             li 
               i.lista-ul__vineta
-              | <em><b>m</b></em> es la pendiente de la línea de regresión que representa el número de unidades que aumenta y por cada unidad de x. Se calcula con la siguiente fórmula:
+              | <em><b>m</b></em> es la pendiente de la línea de regresión que representa el número de unidades que aumenta <em><b>y</b></em> por cada unidad de <em><b>x</b></em>. Se calcula con la siguiente fórmula:
 
           figure
             img(src="@/assets/curso/tema2/img15.svg", alt="Fórmula para calcular la pendiente (m) en una regresión lineal: se multiplica el número de datos (n) por la suma del producto de cada par de valores x*y, y a esto se le resta el producto entre la suma de x y la suma de y. El resultado se divide entre n por la suma de los cuadrados de x, menos el cuadrado de la suma de x.", style="width: 214px")
@@ -236,7 +236,7 @@
           ul.lista-ul.mt-4
             li 
               i.lista-ul__vineta
-              | <em><b>b</b></em> es la intersección de y en la línea de regresión cuando x toma el valor de cero. Se calcula con la siguiente fórmula:
+              | <em><b>b</b></em> es la intersección de <em><b>y</b></em> en la línea de regresión cuando <em><b>x</b></em> toma el valor de cero. Se calcula con la siguiente fórmula:
 
           figure
             img(src="@/assets/curso/tema2/img16.svg", alt="Fórmula matemática para calcular la pendiente b en una regresión lineal, con sumatorias de productos y cuadrados de variables x y y, y el número de observaciones n.", style="width: 262px")
@@ -360,7 +360,7 @@
 
     .row.bg-11.justify-content-center.p-4
       figure
-        img(src='@/assets/curso/tema2/img17.svg', alt='Gráfico de dispersión con línea de regresión lineal ajustada, que incluye puntos de datos y la ecuación de la recta  y=9193,1x+60649.', style="width: 647px").m-auto
+        img(src='@/assets/curso/tema2/img17.svg', alt='Gráfico de dispersión con línea de regresión lineal que representa la tendencia de ventas proyectadas.', style="width: 647px").m-auto
 
     ol.lista-ol--cuadro.mt-4
       li 
@@ -478,8 +478,6 @@
         figure
           img(src='@/assets/curso/tema2/img18.png', alt='', style="width: 400px").m-auto
 
-  
-
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
@@ -490,8 +488,8 @@
           table
             thead
               tr(style="background-color: #FD9826")
-                th CANTIDAD DE VENTAS DEL SECTOR
-                th INCREMENTO PORCENTUAL
+                th Cantidad de ventas del sector
+                th Incremento porcentual
 
             tbody(style="background-color: #F6F6F6")
               tr
@@ -543,7 +541,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 7.
-          span Datos Clave para el Cálculo de Ventas y Costos del Primer Año
+          span Datos clave para el cálculo de ventas y costos del primer año
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -578,7 +576,7 @@
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 8.
-          span Costos Indirectos de Fabricación Mensuales   
+          span Costos indirectos de fabricación mensuales   
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -604,7 +602,7 @@
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 9.
-          span Niveles de Inversión en Activos Corrientes e Impuesto     
+          span Niveles de inversión en activos corrientes e impuesto     
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -636,7 +634,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 10.
-          span Cálculo de Unidades a Vender a Partir de Producción e Inventarios
+          span Cálculo de unidades a vender a partir de producción e inventarios
         
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -659,15 +657,13 @@
                 td.text-start Igual
                 td.text-center Unidades a vender
 
-
-
     p.mt-4 Como lo que se desea determinar es el número de unidades a producir, se despeja la ecuación anterior:
 
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 11.
-          span Cálculo de Unidades a Producir a Partir de Ventas e Inventarios
+          span Cálculo de unidades a producir a partir de ventas e inventarios
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -698,7 +694,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 12.
-          span Cálculo Ampliado de Unidades a Producir
+          span Cálculo ampliado de unidades a producir
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -724,7 +720,7 @@
                 td.text-start Menos inventario final de productos terminados
                 td.text-center Menos ( – )
               tr
-                td.text-start <b>Igual</b>
+                td.text-start Igual
                 td.text-center Unidades a producir
 
     .row.mt-4
@@ -756,13 +752,12 @@
             img(src="@/assets/curso/tema2/img24.svg", alt="Fórmula para calcular el inventario promedio de productos en proceso, con un ejemplo que multiplica un volumen de ventas de 125.000 por 15 días, dividido entre 360, dando como resultado 5.208.", style="width: 559px")
 
     p.mt-4 Con los datos anteriores se calcula el número de unidades a producir bajo el siguiente esquema:
-
       
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 13.
-          span Cálculo de Unidades a Producir (Caso Práctico)
+          span Cálculo de unidades a producir (caso práctico)
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -798,7 +793,7 @@
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 14.
-          span Presupuesto de Costo de Productos (en miles de pesos)
+          span Presupuesto de costo de productos (en miles de pesos)
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -857,14 +852,13 @@
                 td.text-end $23.590.375 / 156.250
                 td.text-end $150,98
 
-
     p.mt-4  Se calcula la inversión que se debe hacer en inventarios y en cartera:
 
     .row.justify-content-center
       .col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 15.
-          span Inversión en Activos Corrientes (en miles de pesos)
+          span Inversión en activos corrientes (en miles de pesos)
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -957,7 +951,6 @@
                 td.text-start = Compras a crédito
                 td.text-end $15.494.792
 
-      
     .row.mt-4
       .col-lg-8
         .row.p-4.bg-4
@@ -1030,8 +1023,6 @@
                 td.text-start Total financiación
                 td.text-end $9.436.849
 
-
-
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 19.
           span Aporte requerido de socios
@@ -1059,7 +1050,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 20.
-          span Cálculo de Costos de Ventas (en miles de pesos)
+          span Cálculo de costos de ventas (en miles de pesos)
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -1096,9 +1087,11 @@
       h5 Figura 2.  
       span Fuentes de ingresos y usos de dinero según la actividad operativa, de inversión y financiación
 
-    figure
-      img(src='@/assets/curso/tema2/img33.svg', alt='Esquema sobre ingresos y egresos de dinero clasificados en actividades operativas, de inversión y financiación, con fuentes como ventas, inversiones y préstamos, y usos como pagos de costos, compras, dividendos y servicio de deuda.', style="width: 1240px").m-auto
-
+    .row.mb-5
+      .col-12
+        .p-4.bg-13
+          figure
+            img(src='@/assets/curso/tema2/img33.svg', alt='Esquema sobre ingresos y egresos de dinero clasificados en actividades operativas, de inversión y financiación, con fuentes como ventas, inversiones y préstamos, y usos como pagos de costos, compras, dividendos y servicio de deuda.', style="width: 600px").m-auto
 
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-3(data-aos="fade-left")
@@ -1135,14 +1128,13 @@
                 td.text-end $25.520.833
                 td.text-center Flujo de efectivo
 
-
     p.mt-4 El estado de flujo de efectivo se elabora bajo el siguiente formato:
 
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 22.
-          span Estado de Flujo de Efectivo Proyectado Completo (en miles de pesos)
+          span Estado de flujo de efectivo proyectado completo (en miles de pesos)
 
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -1158,7 +1150,7 @@
                 td.text-start Recaudo de cartera
                 td.text-end $25.520.833
               tr
-                td.text-start Menos: Egresos operativos
+                td.text-start Menos: egresos operativos
                 td.text-end -
               tr
                 td.text-start Pagos de materia prima
@@ -1207,10 +1199,10 @@
                 td.text-start Préstamos bancarios
                 td.text-end $7.500.000
               tr
-                td.text-start Menos: Abono a préstamo
+                td.text-start Menos: abono a préstamo
                 td.text-end $2.500.000
               tr
-                td.text-start Menos: Intereses
+                td.text-start Menos: intereses
                 td.text-end $1.800.000
               tr
                 td.text-start Efectivo provisto por actividades de financiación
@@ -1219,7 +1211,7 @@
 
         .titulo-sexto.color-acento-contenido.mb-3.mt-4
           h5 Tabla 24.
-          span Menos: Efectivo que demandarán las actividades de inversión 
+          span Menos: efectivo que demandarán las actividades de inversión 
         
         .tabla-a.color-acento-contenido.mt-4
           table
@@ -1352,8 +1344,6 @@
               tr
                 td.text-start Total patrimonio
                 td.text-end $18.232.864
-
-
 
 </template>
 

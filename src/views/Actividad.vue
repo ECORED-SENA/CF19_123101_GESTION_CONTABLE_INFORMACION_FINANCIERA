@@ -21,7 +21,7 @@ export default {
         'Comprensión del presupuesto operativo y financiero en la gestión contable',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con la elaboración, clasificación, metodología y aplicación del presupuesto operativo y financiero en el contexto de la gestión contable y empresarial.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con la elaboración, clasificación, metodología y aplicación del presupuesto operativo y financiero en el contexto de la gestión contable y empresarial.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -347,7 +347,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
@@ -368,7 +368,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
@@ -389,7 +389,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
@@ -410,7 +410,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: false,
             },
             {
@@ -431,7 +431,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Falso',
+              texto: 'Falso.',
               esCorrecta: true,
             },
             {
