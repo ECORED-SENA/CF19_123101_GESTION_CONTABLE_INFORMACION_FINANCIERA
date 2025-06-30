@@ -1091,7 +1091,7 @@
       .col-12
         .p-4.bg-13
           figure
-            img(src='@/assets/curso/tema2/img33.svg', alt='Esquema sobre ingresos y egresos de dinero clasificados en actividades operativas, de inversión y financiación, con fuentes como ventas, inversiones y préstamos, y usos como pagos de costos, compras, dividendos y servicio de deuda.', style="width: 600px").m-auto
+            img(src='@/assets/curso/tema2/img33.svg', alt='Esquema sobre flujos de efectivo clasificados en actividades operativas, de inversión y financiación.', style="width: 600px").m-auto
 
     .row.mb-2.ms-0.mt-4
       .col-auto.bg-3(data-aos="fade-left")
