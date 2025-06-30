@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="214" height="85" viewBox="0 0 214 85">
+  <g id="Grupo_1178851" data-name="Grupo 1178851" transform="translate(-216.051 -3720)">
+    <rect id="Rectángulo_405319" data-name="Rectángulo 405319" width="214" height="85" transform="translate(216.051 3720)" fill="#fff"/>
+    <g id="Grupo_1178601" data-name="Grupo 1178601" transform="translate(239.051 3739.5)">
+      <text id="m_" data-name="m=" transform="translate(0 17)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">m</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-style="normal">=</tspan></text>
+      <text id="n_xy_-_x_y_" data-name="n ∑ xy - (∑ x) (∑ y)" transform="translate(35 17)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">n ∑ xy</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUI-Bold, Segoe UI" font-style="normal"> - (</tspan><tspan y="0">∑ x</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-style="normal">) (</tspan><tspan y="0">∑ y</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-style="normal">)</tspan></text>
+      <text id="n_x2_-_x_2" data-name="n ∑ x2 - (∑ x)2" transform="translate(52 42)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">n ∑ x</tspan><tspan y="0" font-size="9.333" font-family="SegoeUI-Bold, Segoe UI" font-style="normal" baseline-shift="5.33279994943018">2 </tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-style="normal">- (</tspan><tspan y="0">∑ x</tspan><tspan y="0" font-family="SegoeUI-Bold, Segoe UI" font-style="normal">)</tspan><tspan y="0" font-size="9.333" font-family="SegoeUI-Bold, Segoe UI" font-style="normal" baseline-shift="5.33279994943018">2</tspan></text>
+      <path id="Trazado_1033456" data-name="Trazado 1033456" d="M-6842.758,6702.94h137.34" transform="translate(6873.258 -6677.586)" fill="none" stroke="#12263f" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
